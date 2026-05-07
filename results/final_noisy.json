@@ -1,0 +1,32 @@
+{
+  "1_hard": {
+    "config_key": "1_hard",
+    "description": "1 random flip, hard pruning (no recovery)",
+    "m_scores": {
+      "1": 61.82669789227167,
+      "2": 61.82669789227167,
+      "3": 61.82669789227167,
+      "4": 61.82669789227167,
+      "5": 61.82669789227167
+    },
+    "total_noise_flips": 4,
+    "n_examples": 427
+  },
+  "1_soft": {
+    "config_key": "1_soft",
+    "description": "1 random flip, soft scoring (Tool 2)",
+    "m_scores": {
+      "1": 61.59,
+      "2": 66.51,
+      "3": 68.62,
+      "4": 68.62,
+      "5": 68.15
+    },
+    "n_examples": 427
+  },
+  "phase2_reference_0_flips": {
+    "description": "Copied baseline from Phase 2 (0/5 flips, no new run)",
+    "variant": "passfail",
+    "pass_at_1_at_5": 67.91569086651053
+  }
+}

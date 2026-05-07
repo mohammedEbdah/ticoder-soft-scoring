@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# API keys
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+NUL
+desktop.ini
+
+# Claude Code
+.claude/
+
+# Cache (large LLM generation cache — regenerate via Phase 2)
+cache/
+
+# Results: logs, PIDs, batch state, recovery backups
+results/*.log
+results/*.txt
+results/*.pid
+results/batch_state/
+results/recovery_backups/
+results/phase4_checkpoint.json
+
+# Large per-task result files (12-16MB each) — keep only final summaries
+results/ticoder_*.json
+
+# Paper build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/entropy_visual.py
+paper/entropy_explained.png
+paper/create_pptx.py
+paper/TICODER_Presentation.pptx
+paper/~$*
+
+# Codex prompts (development notes)
+CODEX_PROMPT*.md
+
+# Raw data duplicate
+data/mbpp_raw.json
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
